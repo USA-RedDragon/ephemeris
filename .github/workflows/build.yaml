@@ -24,7 +24,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            ghcr.io/rmitchellscott/ephemeris
+            ghcr.io/usa-reddragon/ephemeris
           tags: |
             # branch-based tags (e.g. 'main')
             type=ref,event=branch
